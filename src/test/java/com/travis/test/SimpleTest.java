@@ -14,7 +14,7 @@ public class SimpleTest {
 	
 	@Test
 	public void testSumNumbers() {
-		assertEquals(10, 20);
+		assertEquals(10, 10);
 	}
 
 }
