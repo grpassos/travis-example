@@ -4,7 +4,6 @@ jdk:
 - oraclejdk8
 before_install:
 - export TZ=Brazil/East
-- gem travis install
 - travis encrypt $HEROKU_API_KEY --add deploy.api_key
 deploy:
   provider: heroku
