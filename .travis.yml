@@ -8,6 +8,5 @@ deploy:
   provider: heroku
   edge: true
   api_key:
-    - secure: $SECURE_KEY
-  app: $APP
+    - secure: $HEROKU_API_KEY
 #Teste
